@@ -1,0 +1,66 @@
+/* setting all  the defaults to zero  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* all of the styling for the body of the website */
+body{
+    background-color: #393E46;
+}
+
+/* heading section */
+h1{
+    text-align: center;
+    color: #4ECCA3;
+    font-size: 8rem;
+    font-family: 'Lobster';
+}
+
+/* player section */
+.players{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.players p {
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Indie Flower';
+    color: #4ECCA3;
+    padding: 0 90px;
+}
+
+/* the dicee section */
+.dicee{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dicee img{
+    padding: 0 20px;
+}
+
+/* styling for the button */
+.rollBTN{
+    margin-top: 50px;
+    text-align: center;
+}
+
+button{
+    background-color: #4ECCA3;
+    color: #393E46;
+    font-size: 1.5rem;
+    font-family: 'Lobster';
+    padding: 15px 30px;
+    border-radius: 5%;
+}
+
+/* footer section */
+footer{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Indie Flower';
+    color: #FFFFFF;
+}

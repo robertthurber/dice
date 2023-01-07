@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- where my google fonts live -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+    <!-- my style sheets  -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Dice game two!</title>
+</head>
+<body>
+    <!-- this will display the winner -->
+    <h1>♥️ Player 1 Wins!</h1>
+    <!-- player one and player two dice  -->
+    <div class="players">
+        <p>Player 1</p>
+        <p>Player 2</p>
+    </div>
+    <!-- player dice that will change image once the page is reset -->
+    <div class="dicee">
+        <img src="images/dice1.png" alt="picture of a six sided dice">
+        <img src="images/dice1.png" alt="apicture of a six sided dice">
+    </div>
+    <!-- button to refresh the page making it easyer and makes more since to the user -->
+    <div class="rollBTN">
+        <button type="button" onclick="window.location.reload()">New Roll</button>
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+<!-- my little footer letting the world know that I made this  -->
+<footer>Made by Robert Thurber</footer>
+</html>
